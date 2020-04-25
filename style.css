@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+}
+
+h1{
+    margin: 25px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.affirmation{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 33%;
+    min-width: 350px;
+    height: 75px;
+    margin: 297px auto;
+    position: relative;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 10px;
+    z-index: 1;
+    font-weight: 300;
+}
+
+canvas{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+nav a{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    line-height: 3;
+    color: #a66;
+    font-weight: bold;
+    border: 2px solid #a66;
+    margin: auto;
+}
+
+nav a:hover{
+    background-color: red;
+}
